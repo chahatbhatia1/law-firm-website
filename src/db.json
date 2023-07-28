@@ -1,0 +1,82 @@
+{
+  "lawyers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "specialty": "Corporate Law",
+      "firm": "Doe & Associates",
+      "address": "123 Main Street, Cityville, USA",
+      "phone": "123-456-7890",
+      "time_slots": [
+        {
+          "day": "Monday",
+          "start_time": "09:00 AM",
+          "end_time": "05:00 PM",
+          "status": "booked"
+        },
+        {
+          "day": "Wednesday",
+          "start_time": "10:30 AM",
+          "end_time": "06:30 PM",
+          "status": "booked"
+        },
+        {
+          "day": "Friday",
+          "start_time": "11:00 AM",
+          "end_time": "03:00 PM",
+          "status": "booked"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "specialty": "Family Law",
+      "firm": "Smith & Partners",
+      "address": "456 Oak Avenue, Townsville, USA",
+      "phone": "987-654-3210",
+      "time_slots": [
+        {
+          "day": "Tuesday",
+          "start_time": "08:00 AM",
+          "end_time": "04:00 PM",
+          "status": "available"
+        },
+        {
+          "day": "Thursday",
+          "start_time": "09:30 AM",
+          "end_time": "05:30 PM",
+          "status": "booked"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "specialty": "Criminal Defense",
+      "firm": "Johnson Legal",
+      "address": "789 Elm Street, Villagetown, USA",
+      "phone": "555-123-4567",
+      "time_slots": [
+        {
+          "day": "Monday",
+          "start_time": "11:00 AM",
+          "end_time": "06:00 PM",
+          "status": "available"
+        },
+        {
+          "day": "Wednesday",
+          "start_time": "09:30 AM",
+          "end_time": "05:30 PM",
+          "status": "available"
+        },
+        {
+          "day": "Friday",
+          "start_time": "10:00 AM",
+          "end_time": "04:00 PM",
+          "status": "available"
+        }
+      ]
+    }
+  ]
+}
